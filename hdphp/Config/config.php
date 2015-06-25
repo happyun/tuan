@@ -113,7 +113,7 @@ return array(
     "UPLOAD_IMG_MAX_WIDTH"          => 2000000,     //上传图片超过此值，进行缩放
     "UPLOAD_IMG_MAX_HEIGHT"         => 2000000,     //上传图片超过此值，进行缩放
     /********************************图像水印处理********************************/
-    "WATER_ON"                      => 1,           //开关
+    "WATER_ON"                      => 0,           //开关
     "WATER_FONT"                    => HDPHP_PATH . "Data/Font/font.ttf",   //水印字体
     "WATER_IMG"                     => HDPHP_PATH . "Data/Image/water.png", //水印图像
     "WATER_POS"                     => 9,           //位置  1~9九个位置  0为随机
